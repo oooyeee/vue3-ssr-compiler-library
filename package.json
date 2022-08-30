@@ -4,7 +4,8 @@
   "author": "Yaroslav Minakov",
   "description": "",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/oooyeee/vue3-ssr-compiler-library.git"
   },
   "license": "ISC",
   "main": "dist/lib/require/index.js",

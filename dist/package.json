@@ -1,10 +1,11 @@
 {
-    "name": "@yaro/vue-ssr-library",
+    "name": "@oooyeee/vue-ssr-library",
     "version": "0.0.7",
     "author": "Yaroslav Minakov",
     "description": "Library for compiling Vue templates for SSR",
     "repository": {
-        "url": ""
+        "type": "https://github.com/oooyeee/vue3-ssr-compiler-library.git",
+        "url": "https://github.com/oooyeee/vue3-ssr-compiler-library.git"
     },
     "homepage": "",
     "license": "ISC",
