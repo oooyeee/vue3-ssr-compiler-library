@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2022",
+        "declaration": true,
+        "outDir": "./dist/lib/require",
+        "moduleResolution": "node",
+        "lib": [
+            "ES2022",
+            "DOM"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

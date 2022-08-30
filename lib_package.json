@@ -1,0 +1,40 @@
+{
+    "name": "@yaro/vue-ssr-library",
+    "version": "0.0.7",
+    "author": "Yaroslav Minakov",
+    "description": "Library for compiling Vue templates for SSR",
+    "repository": {
+        "url": ""
+    },
+    "homepage": "",
+    "license": "ISC",
+    "main": "dist/lib/require/index.js",
+    "module": "dist/lib/import/index.js",
+    "types": "dist/lib/import/index.d.ts",
+    "files": [
+        "/lib",
+        "README.md"
+    ],
+    "keywords": [
+        "typescript",
+        "javascript",
+        "vue",
+        "vue 3",
+        "vue3",
+        "ssr"
+    ],
+    "dependencies": {
+        "@types/glob": "^7.2.0",
+        "glob": "^8.0.3",
+        "module-from-string": "^3.2.1",
+        "rollup": "^2.78.1",
+        "swc": "^1.0.11",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.2",
+        "vite": "^3.0.9",
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2"
+    }
+}
