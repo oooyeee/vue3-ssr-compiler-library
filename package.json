@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "clean": "rimraf ./dist/",
-    "build": "npm run clean && tsc && tsc --build tsconfig.esnext.json && cp ./lib_package.json ./dist/package.json"
+    "build": "npm run clean && tsc && tsc --build tsconfig.esnext.json",
+    "postbuild": "pwsh -Command \"& {cp ./lib_package.json ./dist/package.json && cp ./README.md ./dist/README.md}\""
   },
   "dependencies": {
     "@types/glob": "^7.2.0",
