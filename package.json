@@ -21,16 +21,18 @@
   },
   "dependencies": {
     "@types/glob": "^7.2.0",
+    "@vitejs/plugin-vue": "^3.0.3",
     "glob": "^8.0.3",
     "module-from-string": "^3.2.1",
     "rollup": "^2.78.1",
     "swc": "^1.0.11",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.2",
-    "vite": "^3.0.9",
+    "vite": "^3.0.2",
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@babel/types": "^7.18.13",
     "rimraf": "^3.0.2"
   }
 }
