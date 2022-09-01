@@ -1,0 +1,7 @@
+{
+  "example/src/views/Home.ts": {
+    "file": "Home.js",
+    "src": "example/src/views/Home.ts",
+    "isEntry": true
+  }
+}
